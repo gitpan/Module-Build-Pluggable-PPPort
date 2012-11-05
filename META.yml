@@ -20,12 +20,13 @@ no_index:
 provides:
   Module::Build::Pluggable::PPPort:
     file: lib/Module/Build/Pluggable/PPPort.pm
-    version: 0.03
+    version: 0.04
 requires:
   Class::Accessor::Lite: 0
   Devel::PPPort: 3.19
+  Module::Build::Pluggable: 0.03
   parent: 0
   perl: 5.008001
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
